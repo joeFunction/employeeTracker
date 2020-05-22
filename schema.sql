@@ -1,4 +1,4 @@
-CREATE database employee_db;
+CREATE DATABASE employee_db;
 
 USE employee_db;
 
@@ -26,4 +26,3 @@ role_id INT,
 manager_id INT, 
 PRIMARY KEY(id)
 );
-

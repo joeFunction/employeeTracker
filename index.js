@@ -39,6 +39,14 @@ inquirer
     // Use user feedback for... whatever!!
 
     // switch statement 
+    /*switch (key) {
+      case value:
+        
+        break;
+    
+      default:
+        break;
+    }*/
 
     addDep()
   })
