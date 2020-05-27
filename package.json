@@ -1,24 +1,27 @@
 {
-  "name": "employeeTracker",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "a",
+  "version": "2.1.0",
+  "description": "employee tracker",
+  "main": "employee.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joeFunction/employeeTracker.git"
+    "url": "git+https://github.com/SiliconMotorist/eT.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "asd"
+  ],
+  "author": "joe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/joeFunction/employeeTracker/issues"
+    "url": "https://github.com/SiliconMotorist/eT/issues"
   },
-  "homepage": "https://github.com/joeFunction/employeeTracker#readme",
+  "homepage": "https://github.com/SiliconMotorist/eT#readme",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^7.1.0",
-    "mysql": "^2.18.1"
+    "mysql2": "^2.1.0"
   }
 }

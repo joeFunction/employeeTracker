@@ -1,30 +1,10 @@
 USE employee_db;
 
-SELECT * FROM employee;
-
 INSERT INTO department(name)
-VALUE ("Service Dept");
+VALUES("Engineering"),("Service"),("Sales");
 
-INSERT INTO department(name)
-VALUE ("Billing Dept");
+INSERT INTO role (title,salary,department_id)
+VALUES("Salesman", 40000,1),("Sales Manager", 45000,1),("Engineer", 65000, 2), ("Lead Engineer", 72000,2),("Service Manager", 38000, 3),("CSR", 34000, 3);
 
-INSERT INTO department(name)
-VALUE ("Engineering Dept");
-
-INSERT INTO role(title, salary, department_id)
-VALUE ("Manager", 65, 3);
-
-INSERT INTO role(title, salary, department_id)
-VALUE ("Dept Lead", 45, 3);
-
-INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUE ("Alan", "M.", 1, null);
-
-INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUE ("Xanju", "J.", 2, null);
-
-INSERT INTO employee(first_name, last_name, role_id, manager_id)
-VALUE ("Gerald", "W.", 3, null);
-
-
-SELECT * FROM role;
+INSERT INTO employee (first_name,last_name,role_id,manager_id)
+VALUES("Jacob","Parson",1,null),("Jenny","Hobson",2,1);
