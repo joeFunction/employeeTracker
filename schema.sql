@@ -4,13 +4,13 @@ USE employee_db;
 
 CREATE TABLE department(
 id INTEGER AUTO_INCREMENT NOT NULL,
-name VARCHAR(30),
+name VARCHAR(50),
 PRIMARY KEY(id)
 );
 
 CREATE TABLE role (
 id INTEGER AUTO_INCREMENT NOT NULL,
-title VARCHAR(30),
+title VARCHAR(50),
 salary DECIMAL,
 department_id INTEGER,
 PRIMARY KEY(id)
@@ -18,8 +18,8 @@ PRIMARY KEY(id)
 
 CREATE TABLE employee(
 id INTEGER AUTO_INCREMENT NOT NULL,
-first_name VARCHAR(30),
-last_name VARCHAR(30),
+first_name VARCHAR(50),
+last_name VARCHAR(50),
 role_id INTEGER,
 manager_id INTEGER,
 PRIMARY KEY(id)
